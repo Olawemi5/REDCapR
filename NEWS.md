@@ -2,11 +2,15 @@
 
 ### New Features
 
-* New `redcap_instrument_repeating()` function exports repeating instrument-event mappings for a project. (#585, @ezraporter)
+* New `redcap_instrument_repeating()` function exports repeating instrument-event mappings for a project. (#585 & #589, @ezraporter)
 
 ### Minor Enhancements
 
 * New columns returned from the server to `redcap_project_info_read()` no longer throw a warning. (#587)
+* `redcap_file_repo_list_oneshot()` function tests for the new `dag` and `role` columns (#593)
+* `redcap_write()`  now accommodates single-column data.frames. Previously only single-column tibbles were accommodated. (@brandonerose, #591 & #592)
+* Update urls for REDCap Community (#596)
+* Simplified token files for other people to test with (#594)
 
 # REDCapR 1.6.0  (released 2025-10-07)
 

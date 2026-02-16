@@ -64,6 +64,7 @@ reference:
       - redcap_event_instruments
       - redcap_event_read
       - redcap_instrument_download
+      - redcap_instrument_repeating
       - redcap_instruments
       - redcap_log_read
       - redcap_metadata_coltypes
