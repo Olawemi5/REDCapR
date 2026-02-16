@@ -8,6 +8,7 @@
 
 * New columns returned from the server to `redcap_project_info_read()` no longer throw a warning. (#587)
 * `redcap_file_repo_list_oneshot()` function tests for the new `dag` and `role` columns (#593)
+* `redcap_write()`  now accommodates single-column data.frames. Previously only single-column tibbles were accommodated. (@brandonerose, #591 & #592)
 * Update urls for REDCap Community (#596)
 
 # REDCapR 1.6.0  (released 2025-10-07)
